@@ -20,7 +20,6 @@ This pipeline takes a speed climbing video and finds a series of transformatins,
 - `pretrained_models` -- stores pre-trained model weights (a base for fine-tuning)
 - `reference` -- stores reference wall data
 - `scripts` -- stores Python code
-- `test_data` -- stores 20 chosen test images
 
 ## How to use
 
