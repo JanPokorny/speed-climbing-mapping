@@ -1,0 +1,10 @@
+#!/bin/bash
+python scripts/generate_tfrecord.py \
+    -x images/train \
+    -l config/label_map.pbtxt \
+    -o annotations/train.record
+
+python scripts/generate_tfrecord.py \
+    -x images/test \
+    -l config/label_map.pbtxt \
+    -o annotations/test.record

@@ -1,0 +1,13 @@
+{
+	"name": "TF2 Object Detection API Dockerfile",
+	"context": ".",
+	"dockerFile": "Dockerfile",
+	"runArgs": ["--gpus=all"],
+	"forwardPorts": [
+		6006, // TensorBoard
+	],
+	"extensions": [
+		"ms-python.python",
+		"ms-python.vscode-pylance",
+	]
+}

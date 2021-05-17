@@ -1,0 +1,5 @@
+#!/bin/bash
+python api/research/object_detection/model_main_tf2.py \
+    --model_dir=models/$1/model \
+    --pipeline_config_path=models/$1/pipeline.config \
+    --checkpoint_dir=models/$1/model

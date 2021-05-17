@@ -1,0 +1,7 @@
+#!/bin/bash
+rm -rf export/*
+python api/research/object_detection/exporter_main_v2.py \
+    --input_type=image_tensor \
+    --pipeline_config_path=models/$1/pipeline.config \
+    --trained_checkpoint_dir=models/$1/model \
+    --output_directory=models/$1/export
