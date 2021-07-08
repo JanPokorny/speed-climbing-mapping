@@ -14,6 +14,9 @@ optional arguments:
                         Path to the folder where the input image files are stored. Defaults to the same directory as XML_DIR.
   -c CSV_PATH, --csv_path CSV_PATH
                         Path of output .csv file. If none provided, then no file will be written.
+
+Sourced from TensorFlow 2 Object Detection API Tutorial by Lyudmil Vladimirov
+https://github.com/sglvladi/TensorFlowObjectDetectionTutorial/
 """
 
 import os
