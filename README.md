@@ -2,11 +2,17 @@
 
 **Contains submodules. Be sure to clone with `--recurse-submodules`, or to run `git submodule update --init` after cloning.**
 
-This repository contains the implementation of the pipeline from the thesis "Mapping 2D Skeleton Sequences from Speed Climbing Videos onto a Virtual Reference Wall" by Jan Pokorný. The file `generate_tfrecord.py` sourced from [TensorFlow 2 Object Detection API Tutorial by Lyudmil Vladimirov](https://github.com/sglvladi/TensorFlowObjectDetectionTutorial/blob/master/docs/source/scripts/generate_tfrecord.py).
+This repository contains the implementation of the pipeline from the thesis "Mapping 2D Skeleton Sequences from Speed Climbing Videos onto a Virtual Reference Wall" by Jan Pokorný.
 
 ## What does it do
 
 This pipeline takes a speed climbing video and finds a series of transformatins, mapping each frame to a reference wall. This way, skeletons obtained through pose estimation can be transformed from frame coordinates to reference wall coordinates.
+
+
+
+https://user-images.githubusercontent.com/4580066/124996181-ce662580-e048-11eb-93dc-755bfddc78aa.mp4
+
+
 
 ## Structure
 
