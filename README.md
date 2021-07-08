@@ -2,7 +2,7 @@
 
 **Contains submodules. Be sure to clone with `--recurse-submodules`, or to run `git submodule update --init` after cloning.**
 
-This repository contains the implementation of the pipeline from my diploma thesis ["Mapping 2D Skeleton Sequences from Speed Climbing Videos onto a Virtual Reference Wall"](https://is.muni.cz/auth/th/zp7vz/?lang=en;setlang=en). Consult the thesis for more information about the used techniques.
+This repository contains the implementation of the pipeline from my diploma thesis ["Mapping 2D Skeleton Sequences from Speed Climbing Videos onto a Virtual Reference Wall"](https://is.muni.cz/th/zp7vz/?lang=en;setlang=en). Consult the thesis for more information about the used techniques.
 
 ## What does it do
 
