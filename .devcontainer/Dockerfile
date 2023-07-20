@@ -4,7 +4,8 @@ FROM tensorflow/tensorflow:2.4.1-gpu
 ARG DEBIAN_FRONTEND=noninteractive
 
 # Install apt dependencies
-RUN apt-get update && \
+RUN curl https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/3bf863cc.pub | apt-key add - && \
+    apt-get update && \
     apt-get install -y \
         ffmpeg \
         git \
